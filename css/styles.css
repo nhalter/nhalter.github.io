@@ -1,0 +1,36 @@
+.mockup {
+  background: url(../img/bg.jpg);
+}
+
+#center {
+  margin:0 auto;
+  margin-top:-8px;
+  width: 1440px;
+  height: 9500px;
+  background: url(../img/mock.png) no-repeat;
+}
+
+.rhone {
+  padding-top: 1642px;
+  padding-left: 534px;
+}
+
+.uplay {
+  margin-top: -4px;
+  padding-left: 0;
+}
+
+.unyq {
+  margin-top: -4px;
+  padding-left: 534px;
+}
+
+.camp {
+  margin-top: -4px;
+  padding-left: 0;
+}
+
+.titin {
+  margin-top: -4px;
+  padding-left: 534px;
+}
