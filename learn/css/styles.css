@@ -1,0 +1,73 @@
+@import url("./normalize.css");
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #fff;
+  font-family: 'Archivo', sans-serif;
+  color: #111; }
+
+header {
+  background-color: #0033FF; }
+
+nav {
+  margin-bottom: 20px; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  nav li {
+    display: inline-block; }
+  nav a {
+    color: #fff;
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none; }
+
+.folio-item {
+  width: 100%;
+  height: auto; }
+
+.logo {
+  width: 70px;
+  padding: 20px;
+  margin: 40px;
+  background-color: white; }
+
+.flex-grid {
+  margin: 0 0 20px 0; }
+
+.col {
+  padding: 20px;
+  text-align: center; }
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.flex-grid {
+  display: flex; }
+
+.flex-grid .col {
+  flex: 1; }
+
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw; }
+
+.flex-grid-thirds .col {
+  width: 32%; }
+
+@media (max-width: 400px) {
+  .flex-grid,
+  .flex-grid-thirds {
+    display: block; }
+    .flex-grid .col,
+    .flex-grid-thirds .col {
+      width: 100%;
+      margin: 0 0 10px 0; } }
+
+/*# sourceMappingURL=styles.css.map */
